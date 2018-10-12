@@ -13228,7 +13228,7 @@ define('extensions/scrollLink',[
                 return;
             }
             evt.preventDefault();
-            var anchorElt = $('#preview-contents ' + decodeURIComponent(id));
+            var anchorElt = $('#preview-contents ' + id);
             if(!anchorElt.length) {
                 return;
             }

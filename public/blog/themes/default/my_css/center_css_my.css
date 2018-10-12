@@ -1,0 +1,8 @@
+/* 点赞按钮样式 */
+
+.btn-zan,
+.btn-weixin,
+.btn-weibo {
+    height: 30px;
+    line-height: 15px;
+}

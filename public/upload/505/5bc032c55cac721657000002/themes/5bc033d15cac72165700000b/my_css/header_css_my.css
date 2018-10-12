@@ -1,0 +1,62 @@
+ /* 左侧菜单栏样式 */
+ 
+ #headerAndNav {
+     width: 400px;
+     box-shadow: 5px 0px 10px #ddd;
+     overflow-x: hidden;
+     overflow-y: auto;
+     background-size: cover;
+ }
+ /* 顶部头像昵称 */
+ 
+ #header * {
+     float: left;
+ }
+ 
+ #blogDesc {
+     margin-left: 20px;
+     color: #3b3b3b;
+     border-style: none;
+     border-width: 0px;
+ }
+ 
+ .navbar-default .navbar-nav>li>a {
+     color: #3b3b3b;
+     text-align: left
+ }
+ 
+ .navbar-default {
+     margin: 0px 0px;
+ }
+ 
+ .container {
+     width: 100px;
+ }
+ 
+ .navbar-default .navbar-collapse,
+ .navbar-default .navbar-form {
+     margin-left: -100px;
+ }
+ 
+ .navbar-default .navbar-nav>li>a:hover {
+     color: #000;
+ }
+ 
+ #search {
+     width: 100%;
+     float: none;
+ }
+ 
+ .form-control {
+     border: 1px solid #cccccc;
+ }
+ 
+ .input-group-addon {
+     background-color: #fff;
+ }
+ 
+ #headerContainer {
+     background: #f7557d00;
+     height: 150px;
+     margin: 0px 0px;
+ }
